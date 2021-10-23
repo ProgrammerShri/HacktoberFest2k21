@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-176950bbca6-923a17af64fedfb": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "test 2",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3307",
+				"database": "test",
+				"url": "jdbc:mysql://localhost:3307/test",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
